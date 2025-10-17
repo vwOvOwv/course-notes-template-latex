@@ -10,6 +10,7 @@ latex_template/
 ├── preamble.tex
 ├── macros.tex
 ├── letterfonts.tex
+├── template_chap1.tex
 └── template.tex
 ```
 
