@@ -1,0 +1,31 @@
+\documentclass{report}
+
+\input{preamble}
+\input{macros}
+\input{letterfonts}
+
+\begin{document}
+
+\begin{titlepage}
+    \centering
+    \vspace*{5cm}
+    {\sffamily\Huge\bfseries 课程名\par}
+    \vspace{0.5cm}
+	{\sffamily\Large\bfseries Course Name\par}
+    \vspace{2cm}
+    \rule{0.8\linewidth}{0.4pt}
+    \vspace{5cm}
+	
+    {\kaishu\Large 姓名\par}
+    \vfill
+\end{titlepage}
+
+\newpage% or \cleardoublepage
+% \pdfbookmark[<level>]{<title>}{<dest>}
+\pdfbookmark[section]{\contentsname}{toc}
+\tableofcontents
+\pagebreak
+
+\input{template_chap1.tex}
+
+\end{document}
